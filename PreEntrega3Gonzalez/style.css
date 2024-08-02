@@ -1,0 +1,50 @@
+.principal { background-image: url("Imagenes/fondopagina.jpg"); }
+
+h1 {
+	text-align: center;
+	color: #ffffff;
+}
+
+h2 {
+	text-align: center;
+	color: #ffffff;
+}
+p {
+	color: #ffffff;
+}
+
+.carrito {
+	text-align: center;
+	color: #ffffff;
+}
+.productos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.producto {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	width: 200px;
+	display: inline-block;
+}
+
+.producto img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.agregar {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
